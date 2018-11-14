@@ -2,7 +2,6 @@
     COS80001 - Web Application Development
     Assignment 1 - login.php
     Student name: Michele Peghini
-    Student ID: 101940042
 
     This file contains the form that allows a registered user to login to the website,
     after successful login, the user is automatically redirected to the boking page.

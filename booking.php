@@ -2,7 +2,6 @@
     COS80001 - Web Application Development
     Assignment 1 - booking.php
     Student name: Michele Peghini
-    Student ID: 101940042
 
     This file contains the form that allows a loggedin user to make a booking
 -->

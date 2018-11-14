@@ -1,7 +1,6 @@
 /* COS80001 - Web Application Development
  * Assignment 1 - cabsonline.sql
  * Student name: Michele Peghini
- * Student ID: 101940042
  *
  * This file contains MySQL statements necessary to create the 'cabsonline' database,
  * its relative tables 'customer' and 'booking'

@@ -2,7 +2,6 @@
 /* COS80001 - Web Application Development
 * Assignment 1 - cabsonline.sql
 * Student name: Michele Peghini
-* Student ID: 101940042
 *
 * This file stores:
 * - user name and password for the  database user 's101940042', as associative array.
@@ -22,7 +21,7 @@ $db_user = array(
  );
 
 // name of the host server
-$host = "localhost"; //feenix-mariadb.swin.edu.au
+$host = "localhost"; 
 
 // name of the db
 $db_name = "cabsonline";

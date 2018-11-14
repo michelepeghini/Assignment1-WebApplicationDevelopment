@@ -2,7 +2,6 @@
     COS80001 - Web Application Development
     Assignment 1 - admin.php
     Student name: Michele Peghini
-    Student ID: 101940042
 
     This file allows admins to display all 'unassigned' bookings with booking time that is less than 2 hours from current time.
     it also allows admins to update the status of a booking from 'unassigned to 'assigned' by inputing a booking number in the assign form and click 'Update' button.
