@@ -1,0 +1,241 @@
+/*
+    COS80001 - Web Application Development
+    Assignment 1 - style.css
+    Student name: Michele Peghini
+    Student ID: 101940042
+
+    This file contains CSS styles for all the pages of the website
+*/
+
+/* GENERAL STYLE RULES */
+* {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+h1,
+h2,
+h3,
+p,
+a,
+span,
+input,
+label,
+legend {
+    color: #222222;
+}
+
+a {
+    text-decoration: none;
+}
+
+.error {
+    color: #ff2222;
+}
+
+
+.success {
+    color: #229922;
+}
+
+/* MAIN NAVIGATION RULES */
+#main-navigation {
+    position: static;
+    top: 0px;
+    left: 0px;
+    padding: 10px 0 10px 20px;
+    background-color: rgba(255, 160, 0, 1);
+}
+
+#main-navigation span {
+    display: inline;
+    margin: 0 0 0 20px;
+     
+}
+#main-navigation .main-navigation--username {
+    text-decoration: underline;
+}
+
+#main-navigation h1 {
+    display: inline;
+}
+
+#main-navigation a {
+    vertical-align: baseline;
+}
+
+#main-navigation a:hover {
+    color: #ffffff;
+}
+
+/* FORM GLOBAL RULES */
+form {
+    margin: 50px auto 0 auto;
+}
+
+form legend {
+    margin: 0 0 -13px 20px;
+    background-color: rgba(255, 160, 0, 1);
+    border-radius: 5px;    
+    width: 120px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+form fieldset {
+    border: 2px solid rgba(255, 160, 0, 1);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+form input {
+    padding: 3px 5px;
+    border: 1px solid rgba(255, 160, 0, 1);
+    border-radius: 5px;
+    margin: 10px 0px 10px 6px;
+    width: 200px;
+}
+
+form label {
+    display: inline-block;
+    width: 140px;
+}
+
+form input[type=submit] {
+    background-color: rgba(255, 160, 0, 1);
+    border: 1px solid rgba(255, 160, 0, 1);
+    margin: 10px 5px 0 0;
+    padding: 5px 10px;
+    float: right;
+    width: 100px;
+}
+
+form input[type=submit]:hover {
+    background-color: #ffffff;
+    color: rgba(255, 160, 0, 1);
+}
+
+.form-link {
+    font-size: 80%;
+    margin: 15px 0 0 15px;
+    display: inline-block;
+}
+
+.form-link a {
+    color: rgba(255, 160, 0, 1);
+    margin-left: 10px;
+}
+
+.form-link a:hover {
+    text-decoration: underline;
+}
+
+.form-group {
+    border: 1px solid rgba(255, 160, 0, 1);
+    border-radius: 5px;
+    margin:20px 0 5px 0;
+    max-width: 350px;
+}
+
+.form-group--label {
+    color: rgba(255, 160, 0, 1);
+    border: 1px solid rgba(255, 160, 0, 1);
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 5px 10px;
+    width: 125px;
+    margin: -15px 0 0px 10px;
+    text-align: center;    
+}
+
+.form-group--row {
+    text-align: right;
+    margin: 0 10px 0 0;
+}
+
+.form-group--row label {
+    width: 120px;
+}
+
+#login-form,
+#registration-form {
+    max-width: 400px;
+}
+
+#booking-form {
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+/* ADMIN PAGE */
+#admin-list-form,
+#admin-update-form {
+    margin: 10px 50px;
+}
+
+#admin-list-form p {
+    display: inline;
+    max-width: 50%;
+}
+
+#admin-list-form input[type='submit'],
+#admin-update-form input[type='submit'] {
+    display: inline-block;
+    float: none;
+    margin: 0 0 0 20px;
+}
+
+.separator {
+    margin: 0 5px;
+}
+.info {
+    color: rgba(255, 160, 0, 1);
+}
+
+.info-content {
+    text-decoration: underline;
+}
+
+.results {
+    margin: 10px 50px;
+}
+
+.results p {
+    padding: 10px;
+}
+
+.results.error {
+    border:1px solid #ff2222;
+    border-radius: 5px; 
+}
+
+.results.success {
+    border:1px solid #229922;
+    border-radius: 5px; 
+}
+
+.results-table {
+    border: 1px solid rgba(255, 160, 0, 1);
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+}
+.results-table th,
+.results-table td {
+    padding: 5px;
+    border: 1px solid rgba(255, 160, 0, 1);
+}
+
+
+#admin-update-form p {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
